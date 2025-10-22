@@ -83,5 +83,4 @@ class PythojsClient {
             this.dispatch(message.update, message.data);
         }
     }
-}
-(window as any).PythojsClient = PythojsClient;
+}; (window as any).PythojsClient = PythojsClient;
