@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythujs"
+version = "0.1.0"
+description = "Lightweight async Python framework with WebSocket + JS SDK"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "M2.128 (Mark)", email = "mp1@emg.im"}
+]
+keywords = ["fastapi", "websocket", "framework", "asyncio", "sdk", "javascript"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Framework :: FastAPI",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.0",
+  "websockets>=12.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/M2-128/pythujs"
+"Documentation" = "https://github.com/M2-128/wiki"
+"Issues" = "https://github.com/M2-128/pythujs/issues"
